@@ -79,7 +79,6 @@ void heap_sort(vector<int> &a, int n)
 }
 int main()
 {
-
     vector<int> a = {5, 4, 3, 2, 1};
     heap_sort(a, a.size());
     for (int i = 0; i < a.size(); i++)
